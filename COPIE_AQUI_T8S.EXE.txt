@@ -1,0 +1,5 @@
+Copie aqui T8S.EXE, el programa TRANSYT 8S.
+
+CORRER_T8S.bat necesita T8S.EXE en esta carpeta raiz, junto al propio .bat.
+El programa no viene en el repositorio porque su uso es restringido segun los terminos
+fijados por la UOCT y SECTRA; cada usuario debe copiar su propia version autorizada.

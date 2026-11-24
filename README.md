@@ -2,6 +2,10 @@
 
 TRANSYT-8S (T8S) es un programa de MS-DOS, por lo que no corre de forma nativa en Windows de 64 bits. Este repositorio reúne lo necesario para ejecutarlo con DOSBox-X: el lote `CORRER_T8S.bat`, que corre todas las redes de la carpeta `redes` en una sola sesión de DOSBox-X y deja cada salida en la carpeta `resultados`, junto con un caso de ejemplo ya corrido.
 
+## ⚠ Requisito: T8S.EXE en la raíz
+
+Para que la batería corra se necesita **T8S.EXE, el programa TRANSYT 8S, copiado en la carpeta raíz del repositorio**, junto a `CORRER_T8S.bat` (donde está el archivo `COPIE_AQUI_T8S.EXE.txt`). El programa no viene en el repositorio porque su uso es restringido según los términos fijados por la UOCT y SECTRA, de modo que cada usuario debe copiar su propia versión autorizada. Si falta, el lote se detiene con el mensaje "no esta T8S.EXE en esta carpeta".
+
 ## Contenido
 
 ```
@@ -9,7 +13,7 @@ CORRER_T8S.bat     corre todas las redes *.prn de la carpeta redes
 mingw/             DOSBox-X 2026.10.01 para Windows de 64 bits
 redes/             redes de entrada de T8S (aquí se dejan los .prn a correr)
 resultados/        salidas de T8S, una por red: "resultados - NOMBRE_RED.txt"
-T8S.EXE            no se incluye: debe copiarlo cada usuario (ver abajo)
+T8S.EXE            TRANSYT 8S: lo copia cada usuario en la raíz (no viene en el repositorio)
 ```
 
 ## Puesta en marcha
