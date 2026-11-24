@@ -1,0 +1,8 @@
+# T8S.EXE es de uso restringido (UOCT y SECTRA): cada usuario copia su propia version autorizada
+T8S.EXE
+t8s.exe
+
+# Archivos que CORRER_T8S.bat crea en cada equipo o en cada corrida
+DOSBOX_RUTA.txt
+trabajo/
+mingw/DOSBox-X/
